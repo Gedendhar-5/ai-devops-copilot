@@ -104,12 +104,12 @@ It ingests raw application logs and simulated system metrics, runs them through 
 ┌─────────────────────────────────────────────────────────────────┐
 │                  AGENTIC AI LAYER (LangGraph)                   │
 │                                                                 │
-│   ┌─────────────────┐   ┌──────────────────┐   ┌────────────┐  │
-│   │  Analyzer Agent │ → │  Decision Agent  │ → │Action Agent│  │
-│   │  Reads logs +   │   │  Picks action    │   │  Runs      │  │
-│   │  metrics, calls │   │  label via LLM   │   │  simulation│  │
-│   │  LLM for RCA    │   │                  │   │  + rules   │  │
-│   └─────────────────┘   └──────────────────┘   └────────────┘  │
+│   ┌─────────────────┐   ┌──────────────────┐   ┌────────────┐   │
+│   │  Analyzer Agent │ → │  Decision Agent  │ → │Action Agent│   │
+│   │  Reads logs +   │   │  Picks action    │   │  Runs      │   │
+│   │  metrics, calls │   │  label via LLM   │   │  simulation│   │
+│   │  LLM for RCA    │   │                  │   │  + rules   │   │
+│   └─────────────────┘   └──────────────────┘   └────────────┘   │
 └───────────────────────────┬─────────────────────────────────────┘
                             │
                             ▼
@@ -122,7 +122,7 @@ It ingests raw application logs and simulated system metrics, runs them through 
                             ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                    DECISION ENGINE                              │
-│         Rule-based overrides on top of LLM decisions           │
+│         Rule-based overrides on top of LLM decisions            │
 │         Maps issue patterns → restart / scale / alert           │
 └───────────────────────────┬─────────────────────────────────────┘
                             │
