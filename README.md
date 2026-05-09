@@ -7,8 +7,6 @@ Copy
  
 ---
  
-## 📸 Screenshots
- 
 ### Dashboard — System Metrics
 ![Metrics](<samples/Image1.png>)
  
