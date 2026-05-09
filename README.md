@@ -10,28 +10,27 @@ Copy
 ## 📸 Screenshots
  
 ### Dashboard — System Metrics
-![Metrics](<Photos & Architecture/End to End AI Pipeline.png>)
+![Metrics](<samples/Image1.png>)
  
 ---
  
 ### Log Analysis — Input
-<!-- PASTE SCREENSHOT HERE: Streamlit dashboard showing log input box and metric fields -->
+![Analysis](<samples/Image2.png>)
  
 ---
  
 ### Analysis Result — Output
-<!-- PASTE SCREENSHOT HERE: Streamlit showing Error Type, Root Cause, Suggested Fix, Action Taken cards -->
+![Result](<samples/Image3.png>)
  
 ---
  
 ### Agent Pipeline Trace
-<!-- PASTE SCREENSHOT HERE: Streamlit showing the 3-agent pipeline trace table -->
+![Pipeline](<samples/Image4.png>)
  
 ---
  
 ### FastAPI Swagger UI
-<!-- PASTE SCREENSHOT HERE: http://localhost:8000/docs showing GET /health and POST /analyze -->
- 
+![FASTAPI](<samples/Image5.png>)
 
 ---
  
