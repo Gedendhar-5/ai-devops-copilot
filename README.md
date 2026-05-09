@@ -10,7 +10,7 @@ Copy
 ## 📸 Screenshots
  
 ### Dashboard — System Metrics
-<!-- PASTE SCREENSHOT HERE: Streamlit dashboard showing CPU, Memory, Error Rate metric cards -->
+![Metrics](<Photos & Architecture/End to End AI Pipeline.png>)
  
 ---
  
