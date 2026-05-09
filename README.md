@@ -6,7 +6,9 @@ Copy
 > An intelligent, agent-driven system that monitors application logs and system metrics, detects anomalies, performs root cause analysis using LLMs, and autonomously simulates self-healing infrastructure actions.
  
 ---
- 
+
+
+
 ### Dashboard — System Metrics
 ![Metrics](<samples/Image1.png>)
  
