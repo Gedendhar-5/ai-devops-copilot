@@ -32,21 +32,7 @@ Copy
 ### FastAPI Swagger UI
 <!-- PASTE SCREENSHOT HERE: http://localhost:8000/docs showing GET /health and POST /analyze -->
  
----
- 
-### GitHub Actions CI Pipeline
-<!-- PASTE SCREENSHOT HERE: GitHub Actions tab showing green CI runs -->
- 
----
- 
-### Render Deployment
-<!-- PASTE SCREENSHOT HERE: Render dashboard showing deployed backend service -->
- 
----
- 
-### Streamlit Cloud Deployment
-<!-- PASTE SCREENSHOT HERE: Streamlit Cloud showing deployed frontend app -->
- 
+
 ---
  
 ## 🧠 Project Overview
